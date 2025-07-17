@@ -6,10 +6,6 @@ export default defineConfig({
     search: {
       provider: 'local'
     },
-	footer: {
-      message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2019-present Evan You'
-    },
     logo: "../assets/favicon.ico",
     // 左侧菜单栏
     sidebar: {
