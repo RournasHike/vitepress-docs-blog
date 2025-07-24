@@ -11,7 +11,7 @@ export default defineConfig({
     sidebar: {
 	  "/": [
 	     {
-          text: "学习目录", // 分组标题
+          text: "文档目录", // 分组标题
           collapsible: true, // 可折叠
           items: [
 			{ text: "IO", link: "/content/IO/index" },
@@ -64,27 +64,47 @@ export default defineConfig({
           ]
         },
       ],
-	  "/spring/": [
+	  "/framework/": [
         // 匹配/spring/路径
 		{
           text: "spring", // 分组标题
           collapsible: true, // 可折叠
           items: [
-            { text: "spring简介", link: "/spring/spring/index" },
+            { text: "spring中的IOC和DI", link: "/framework/spring/spring中的IOC和DI" },
+			{ text: "spring中的AOP实现", link: "/framework/spring/spring中的AOP实现" },
+			{ text: "spring中bean的循环依赖问题", link: "/framework/spring/spring中bean的循环依赖问题" },
+			{ text: "spring中bean的生命周期", link: "/framework/spring/spring中bean的生命周期" },
+			{ text: "spring中使用的设计模式", link: "/framework/spring/spring中使用的设计模式" },
+			{ text: "spring的事务管理基础", link: "/framework/spring/spring的事务管理基础" },
+			{ text: "spring的事务管理实现", link: "/framework/spring/spring的事务管理实现" },
+			{ text: "spring的事件监听机制pubsub", link: "/framework/spring/spring的事件监听机制pubsub" },
+			{ text: "spring常用注解", link: "/framework/spring/spring常用注解" },
+			{ text: "springmvc组件", link: "/framework/spring/springmvc组件" },
           ]
         },
 		{
           text: "spring boot", // 分组标题
           collapsible: true, // 可折叠
           items: [
-            { text: "spring boot简介", link: "/spring/spring boot/index" },
+            { text: "spring boot简介", link: "/framework/spring boot/index" },
           ]
         },
 		{
           text: "spring cloud", // 分组标题
           collapsible: true, // 可折叠
           items: [
-            { text: "spring cloud简介", link: "/spring/spring cloud/index" },
+            { text: "spring cloud简介", link: "/framework/spring cloud/index" },
+          ]
+        },
+		{
+          text: "mybatis", // 分组标题
+          collapsible: true, // 可折叠
+          items: [
+            { text: "mybatis动态sql", link: "/framework/mybatis/mybatis动态sql" },
+			{ text: "mybatis批处理", link: "/framework/mybatis/mybatis批处理" },
+			{ text: "mybatis代码生成器", link: "/framework/mybatis/mybatis代码生成器" },
+			{ text: "mybatis缓存", link: "/framework/mybatis/mybatis缓存" },
+			{ text: "mybatis批量CRUD操作", link: "/framework/mybatis/mybatis批量CRUD操作" },
           ]
         },
       ],
@@ -101,11 +121,11 @@ export default defineConfig({
         ]
       },
 	  {
-        text: 'spring',
+        text: '框架',
         items: [
-          { text: 'spring', link: '/spring/spring/index' },
-          { text: 'spring boot', link: '/spring/spring boot/index' },
-          { text: 'spring cloud', link: '/spring/spring cloud /index' }
+          { text: 'spring', link: '/framework/spring/index' },
+          { text: 'spring boot', link: '/framework/spring boot/index' },
+          { text: 'spring cloud', link: '/framework/spring cloud /index' }
         ]
       },
       { text: 'Github', link: 'https://github.com/rournashike/' }

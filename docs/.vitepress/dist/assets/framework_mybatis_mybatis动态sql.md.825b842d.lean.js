@@ -1,0 +1,1 @@
+import{_ as t,c as e,o as a}from"./app.3ee68b12.js";const d=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"framework/mybatis/mybatis\u52A8\u6001sql.md"}'),s={name:"framework/mybatis/mybatis\u52A8\u6001sql.md"};function r(o,c,m,n,i,_){return a(),e("div")}const f=t(s,[["render",r]]);export{d as __pageData,f as default};

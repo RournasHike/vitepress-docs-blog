@@ -1,0 +1,1 @@
+import{_ as e,c as r,o as t}from"./app.3ee68b12.js";const d=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"framework/spring/spring\u4E2D\u7684IOC\u548CDI.md"}'),a={name:"framework/spring/spring\u4E2D\u7684IOC\u548CDI.md"};function s(n,o,p,c,i,_){return t(),r("div")}const f=e(a,[["render",s]]);export{d as __pageData,f as default};

@@ -1,0 +1,1 @@
+import{_ as a,c as t,o as e,d as i}from"./app.3ee68b12.js";const b=JSON.parse('{"title":"MyBatis \u6269\u5C55","description":"","frontmatter":{},"headers":[],"relativePath":"content/MyBatis/index.md"}'),s={name:"content/MyBatis/index.md"},r=i("",2),m=[r];function o(l,n,_,c,d,h){return e(),t("div",null,m)}const f=a(s,[["render",o]]);export{b as __pageData,f as default};
